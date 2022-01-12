@@ -10,7 +10,7 @@ function calculateWorkoutLength(array) {
 function generateRandomExercises(arr, num) {
     const newArray = [];
     for (let i=0; i<num; i++) {
-        let indx = Math.floor(Math.random()* arr.length);
+        const indx = Math.floor(Math.random()* arr.length);
         newArray.push(arr[indx])
     }
     return newArray;
