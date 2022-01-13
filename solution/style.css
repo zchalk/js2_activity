@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  min-width: 24em;
+  justify-content: center;
+}
+
+ol li {
+  font-size: 1rem;
+}
+
+nav div a {
+  font-size: 3.2rem !important;
+}
+
+main {
+  padding-bottom: 6rem;
+}
+
+main .card img {
+  max-height: 11rem;
+}
